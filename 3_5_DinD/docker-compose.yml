@@ -21,7 +21,7 @@ services:
     expose: 
       -  3375
     command: "--insecure-registry registry:5000"
-    volumes: 
+    volumes:
       - "./stack:/stack"
 
   worker01:
