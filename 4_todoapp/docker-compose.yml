@@ -29,7 +29,7 @@ services:
     image: docker:18.05.0-ce-dind
     privileged: true
     tty: true
-    depends_on:
+    depends_on: 
       - manager
       - registry
     expose: 
